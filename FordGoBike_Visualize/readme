@@ -1,0 +1,66 @@
+# Communicating Data Findings 
+
+## by Aparna
+
+
+
+## Dataset
+
+Ford GoBike is a regional public bicycle sharing system in the San Francisco Bay Area, California. Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles for short trips, typically 30 minutes or less.In this project, I will perform an exploratory analysis on data provided by Ford GoBike service provider.
+
+In this project, we will focus on the record of individual trips taken in from January 2018 to April 2019.
+
+Ford GoBike Data: https://s3.amazonaws.com/fordgobike-data/index.html.
+
+
+## Summary of Findings
+
+### Key Findings For Univariate Exploration
+
+- Ford GoBike service mostly used by the gender Males and by the user type Subscribers.
+- Majority of the Ford GoBike service users are in the age group between 25-40 years.
+- The duration (in mins) for most of the rides are within 15 mins.
+- The longest distance for this service is in between 0.5kms to 2kms.
+- The Ford GoBike is mostly used in the months of March and April of the year 2019.
+- Ford GoBike is mainly used in weekdays and less used in the weekend.Mostly used in Thursday and Tuesday.
+- The Ford GoBike system is mostly used in the hours 8am-9am and 5pm-6pm.
+- Users only use Ford GoBike sharing service for part of the trip, they rarely use it for the entire trip.
+
+### Key Findings For Bivariate Exploration
+
+- Rides by subscribers are more centred around shorter duration and distance.
+- The hourly trend shows that for subscribers majority of the rides are taken during hours 8-9am and 5-6pm whereas for the customers the majority of the rides are taken from 11am to 7pm.
+- The daily usage shows that subcribers take the rides mostly between days Monday to Friday whereas the customers mostly take the rides on Saturday and Sunday. This shows that subscribers are taking the ride to commute whereas customers are taking the rides to enjoy their weekends.
+- Both the user types have same trends for month wise usage of bikes.Subscribers are take most monthly rides.2019-March and 2019-April being the months were most of the rides are taken.
+- The same trends also following the age group also. Subscribers contains more members in the age group 25-40 compared to customers.
+- The numeric variables hours,weekdays and bike_share_for_all_trip all have obvious impact on duration,distance,member age. Weekday type has an impact on duration but limited impact on distance.
+
+### Key Findings For Multivariate Exploration
+
+- Both the user types had majority of users are Males.
+- Subscribers using the service more compared to customers
+- The Customer user type have more rides of longer durations
+- User type Subscriber uses the service more during the the hours 8-9am and 5-6 pm showing that they are using the service to commute to workplace and back home.
+- The user type customer on the other hand use the service most during hours 11 am to 7 pm.
+- User type Subscriber uses the service more during the working days (Monday-Friday) whereas user type Customer use the service most during the weekends (Friday-Sunday).
+- User type Subscriber uses the service more in the intial months of the year 2018 whereas the user type customer use the service more in the months April to September in the year 2018.
+- From october 2018 to April 2019 Subscribers are used the service more than Customers
+- On weekdays, there are more trips during two peak periods (7-10am and 4-7pm), but in weekends trips are normal distributed throughout the day between 7am-10pm.
+- The trend for longer trips are different - longer trips happen around the two 7-10am and 4-7pm peak periods on weekdays, and 1pm-4pm on weekends.
+- On weekdays, peak hour trips are taken by adults aged between 25-40.
+- On weekends, peak hour trips are taken by adults having the age between 20-35.
+
+
+## Key Insights for Presentation
+
+For the presentation, I just focusing on 
+ 1. Usage of Ford GoBike service by gender wise and by user types wise.
+ 2. Exploring Ford GoBike monthly trends.
+ 3. Exploring Ford GoBike service - monthly trends for all user type per gender wise.
+ 
+### Conclusions 
+- Ford GoBike trips are mostly made by subscribers.
+- Both the user types had majority of users are Males.
+- The monthly trends showing that the males are mostly used the Ford GoBike service compared to females and other category.
+- Both the user types have same trends for month wise usage of bikes.Subscribers are take most monthly rides.2019-March and 2019-April being the months were most of the rides are taken.
+-User type Subscriber uses the service more in the intial months of the year 2018 whereas the user type customer use the service more in the months April to September in the year 2018.From october 2018 to April 2019 Subscribers are used the service more than Customers
